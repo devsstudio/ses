@@ -1,0 +1,32 @@
+{
+  "name": "@devs-studio/ses",
+  "version": "1.0.2",
+  "description": "Classes for AWS SES",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "prepublish": "npx tsc",
+    "build": "npx tsc"
+  },
+  "keywords": [
+    "aws",
+    "ses"
+  ],
+  "homepage": "https://github.com/devsstudio/ses#readme",
+  "bugs": {
+    "url": "https://github.com/devsstudio/ses/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devsstudio/ses.git"
+  },
+  "license": "ISC",
+  "author": "Devs Studio",
+  "dependencies": {
+    "@aws-sdk/client-ses": "^3.1038.0"
+  },
+  "devDependencies": {
+    "@types/node": "^25.6.0",
+    "typescript": "^6.0.3"
+  }
+}
